@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "current_feature": "code_generator",
+  "features": [
+    {
+      "id": "code_generator",
+      "title": "Generate reusable Flutter controller code",
+      "status": "in_progress",
+      "acceptance": [
+        "Generated Dart code contains initState, dispose, and debugFillProperties methods",
+        "UI provides input fields and displays generated code"
+      ],
+      "implementation": [
+        "./api/main.py",
+        "./ui/src/App.jsx"
+      ],
+      "tests": [
+        "./tests/test_generator.py"
+      ]
+    }
+  ]
+}
