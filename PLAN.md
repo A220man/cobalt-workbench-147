@@ -10,8 +10,19 @@ continue-implementation
 
 ### continue-implementation — Continue implementation and resolve known failures
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
+
+Implementation: `api/main.py`, `tests/test_generator.py`
+
+Tests: `tests/test_generator.py`
+
+### add-ui-mockup — Add UI mockup
+
+Status: planned
+
+Acceptance:
+- Provide basic UI for code generator
 

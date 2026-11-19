@@ -5,9 +5,24 @@
     {
       "id": "continue-implementation",
       "title": "Continue implementation and resolve known failures",
-      "status": "in_progress",
+      "status": "done",
       "acceptance": [
         "Run checks, fix failures, and implement the next planned feature"
+      ],
+      "implementation": [
+        "api/main.py",
+        "tests/test_generator.py"
+      ],
+      "tests": [
+        "tests/test_generator.py"
+      ]
+    },
+    {
+      "id": "add-ui-mockup",
+      "title": "Add UI mockup",
+      "status": "planned",
+      "acceptance": [
+        "Provide basic UI for code generator"
       ],
       "implementation": [],
       "tests": []
