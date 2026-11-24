@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_feature": "continue-implementation",
+  "current_feature": "add-ui-mockup",
   "features": [
     {
       "id": "continue-implementation",
@@ -20,12 +20,17 @@
     {
       "id": "add-ui-mockup",
       "title": "Add UI mockup",
-      "status": "planned",
+      "status": "done",
       "acceptance": [
         "Provide basic UI for code generator"
       ],
-      "implementation": [],
-      "tests": []
+      "implementation": [
+        "ui/src/App.jsx",
+        "ui/public/index.html"
+      ],
+      "tests": [
+        "tests/test_generator.py"
+      ]
     }
   ]
 }

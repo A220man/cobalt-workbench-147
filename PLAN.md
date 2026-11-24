@@ -4,7 +4,7 @@ Each round completes one feature or repair. Future items are planned, not implem
 
 ## Current round
 
-continue-implementation
+add-ui-mockup
 
 ## Roadmap
 
@@ -21,8 +21,12 @@ Tests: `tests/test_generator.py`
 
 ### add-ui-mockup — Add UI mockup
 
-Status: planned
+Status: done
 
 Acceptance:
 - Provide basic UI for code generator
+
+Implementation: `ui/src/App.jsx`, `ui/public/index.html`
+
+Tests: `tests/test_generator.py`
 
